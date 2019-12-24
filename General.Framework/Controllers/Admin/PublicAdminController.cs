@@ -7,7 +7,7 @@ using System.Text;
 
 namespace General.Framework.Controllers.Admin
 {
-    [AdminAuthFilter]
+    //[AdminAuthFilter]
     public class PublicAdminController : AdminAreaController
     {
         private IWorkContext _workContext;

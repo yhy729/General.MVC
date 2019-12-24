@@ -26,7 +26,8 @@ namespace General.Services.Category
                 var item = categories.FirstOrDefault(x => x.SysResource == del.SysResource);
                 if (item != null)
                 {
-                    var permissionList = del
+                    //TODO
+                    //var permissionList = del
                 }
             });
         }
