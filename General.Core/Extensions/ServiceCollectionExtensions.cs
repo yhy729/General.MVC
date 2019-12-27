@@ -44,7 +44,7 @@ namespace General.Core.Extensions
                     switch (serviceLifetime)
                     {
                         case ServiceLifetime.Singleton:
-                            services.AddScoped(inter, type);
+                            services.AddSingleton(inter, type);
                             break;
                         case ServiceLifetime.Scoped:
                             services.AddScoped(inter, type);

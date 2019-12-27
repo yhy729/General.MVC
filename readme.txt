@@ -4,3 +4,8 @@ Entityies—实体层  与数据映射的实体
 Services—服务层 数据的CURD操作
 Mvc—UI层 界面展示
 Framework—UI框架层 Mvc框架的基础建设
+
+2.系统使用说明
+系统登录地址        .../admin/Login/Index
+系统内置用户名       admin
+用户名密码          123456
