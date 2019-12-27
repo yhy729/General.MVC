@@ -15,6 +15,7 @@ namespace General.Mvc.Areas.Admin.Controllers
         {
             this._authenticationService = authenticationService;
         }
+
         public IActionResult Index()
         {
             //var user = WorkContext.CurrentUser;

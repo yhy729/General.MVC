@@ -18,6 +18,7 @@ using General.Framework;
 using General.Framework.Security.Admin;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Caching.Memory;
+using General.Framework.Menu.Register;
 
 namespace General.Mvc
 {
@@ -108,6 +109,9 @@ namespace General.Mvc
                   template: "{area:exists}/{controller=Login}/{action=Index}/{id?}"
                 );
             });
+
+            //初始化菜单
+            //EnginContext.Current.Resolve<IRegisterApplicationService>().InitRegister();
 
         }
     }
